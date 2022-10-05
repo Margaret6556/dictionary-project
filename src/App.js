@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src="./src/logo.png" className="App-logo img-fluid" alt="logo" />
+        <a href="https://www.margaretcezar.com" target="_blank" rel="noreferrer"><img src="/logo.png" className="logo" alt="Margaret logo" > </img> </a>
         </header>
         <main>
           <Dictionary />
