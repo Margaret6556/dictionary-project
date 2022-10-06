@@ -1,28 +1,7 @@
 .Dictionary {
     border-radius: 16px;
-    font-size: 50px;
+    font-size: 20px;
     background: #edd2b6;
-    color: #e45d29;
   }
   
-  .Dictionary .searchBar {
-    padding: 30px;
-  }
   
-  .Dictionary .searchBar form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .Dictionary span {
-    margin-left: 40px;
-  }
-  
-  .Dictionary input {
-    width: 60%;
-    padding: 18px 18px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    margin: 10px 20px;
-    background-color: #e0d4f2;
-  }
