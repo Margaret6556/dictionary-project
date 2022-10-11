@@ -1,7 +1,10 @@
 .Dictionary {
     border-radius: 16px;
-    font-size: 20px;
     background: #edd2b6;
+    padding: 20px;
+    margin: 50px auto;
+    width: 600px;
+    align-items: center;
   }
   
   
