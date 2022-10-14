@@ -8,8 +8,7 @@ body {
 
 .App .logo {
   margin-top: 50px;
-  height: 100px;
-  width: 150px;
+  max-width: 300px;
   margin: 40px;
 }
 

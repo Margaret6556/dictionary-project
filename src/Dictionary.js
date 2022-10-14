@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
+import { InputGroup } from "react-bootstrap";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
@@ -10,9 +11,9 @@ export default function Dictionary() {
   }
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
 
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    //documentation: https://api.dictionaryapi.dev/
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -22,9 +23,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search " onChange={handleKeywordChange} />
-      </form>
+      <InputGroup className="mb-3" onSubmit={search}>
+        <Form.Control 
+        placeholder="Search your medical word">
+        </Form.Control>    
+        <InputGroup.Text id="search " onChange={handleKeywordChange} />
+      </InputGroup>
     </div>
   );
 }

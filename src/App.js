@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import logo from "./logo2.png";
+import { InputGroup } from "react-bootstrap";
 
 export default function App() {
   return (
