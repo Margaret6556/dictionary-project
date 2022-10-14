@@ -6,10 +6,10 @@ body {
   text-align: center;
 }
 
-.App logo {
+.App .logo {
   margin-top: 50px;
-  height: 50px;
-  width: 100px;
+  height: 100px;
+  width: 150px;
   margin: 40px;
 }
 
