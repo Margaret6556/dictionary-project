@@ -11,7 +11,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">     
           <img src={logo}  className="logo" alt="Margaret logo" />
-          <p> Medical Terminologies doesn't have to be so  confusing!</p>
+          <p> Medical Terminologies don't have to be so 🤯 confusing!</p>
           <h2> Welcome to your </h2>
            <h1 className={App.h1}> Modern Medical Dictionary </h1>
         </header>

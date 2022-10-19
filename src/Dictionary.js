@@ -20,8 +20,8 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  function handleKeywordChange(event) {
-    setKeyword(event.target.value);
+  function handleKeywordChange(e) {
+    setKeyword(e.target.value);
   }
 
   return (
