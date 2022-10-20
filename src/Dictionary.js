@@ -10,6 +10,7 @@ export default function Dictionary() {
 
   function handleResponse(response) {
     console.log(response.data[0]);
+    console.log(response.data[0].meanings[0].definition[0].definition[0]);
   }
   function search(event) {
     event.preventDefault();
@@ -20,14 +21,14 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  function handleKeywordChange(e) {
-    setKeyword(e.target.value);
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
   }
 
   return (
     <div className="Dictionary">
       <form className="mb-3" onSubmit={search}>
-        <input type="text" placeholder="Type your word" id="search " onChange={handleKeywordChange} />
+        <input className="input-search" type="text" placeholder="Type your word" id="search " onChange={handleKeywordChange} />
       </form>
       <Results results={results} />
     </div>
