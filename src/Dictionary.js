@@ -4,7 +4,7 @@ import axios from "axios";
 import Results from "./Results";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState();
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
@@ -35,7 +35,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
       </form>
-      <Results results={Results} />
+      <Results results={results} />
     </div>
   );
 }
