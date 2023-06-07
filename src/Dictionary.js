@@ -14,11 +14,11 @@ export default function Dictionary() {
   function search(event) {
     event.preventDefault();
 
-    //documentation: https://api.dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    console.log({ apiUrl });
+//documentation: https://api.dictionaryapi.dev/
+
+    let apiUrl = `https://www.dictionaryapi.com/api/v3/references/medical/json/${keyword}?key=e4711390-bf39-40fc-9830-0e5834a9850c`;
     axios.get(apiUrl).then(handleResponse);
-  }
+}
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
