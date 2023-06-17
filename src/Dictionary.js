@@ -16,7 +16,7 @@ export default function Dictionary() {
 
 //documentation: https://api.dictionaryapi.dev/
 
-    let apiUrl = `https://www.dictionaryapi.com/api/v3/references/medical/json/${keyword}?key=e4711390-bf39-40fc-9830-0e5834a9850c`;
+    let apiUrl = `https://www.dictionaryapi.com/api/v3/references/medical/json/${keyword}?key=39284b94tea8fb240cc5d3o3a355d5a0`;
     axios.get(apiUrl).then(handleResponse);
 }
 
