@@ -1,3 +1,7 @@
+# She Codes boot camp project where I am practicing all I learned including React.
+
+Deploy link : https://deploy-preview-8--roaring-zabaione-5b1cee.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
