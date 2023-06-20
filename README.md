@@ -1,4 +1,4 @@
-# This repo is for my She Codes boot camp project where I practice my all I learned including React.
+# She Codes boot camp project where I am practicing all I learned including React.
 
 Deploy link : https://deploy-preview-8--roaring-zabaione-5b1cee.netlify.app/
 
