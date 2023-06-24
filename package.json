@@ -12,7 +12,7 @@
     "react-axios": "^2.0.6",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
-    "react-lazy-load-image-component": "^1.5.5",
+    "react-lazy-load-image-component": "^1.6.0",
     "save": "^2.9.0",
     "web-vitals": "^2.1.4"
   },
